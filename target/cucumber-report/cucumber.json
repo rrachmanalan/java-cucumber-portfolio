@@ -1,0 +1,1133 @@
+[ {
+  "line" : 2,
+  "elements" : [ {
+    "line" : 6,
+    "name" : "User is logged in",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 55966500,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "the user opens jamtangan.com website",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserOpensJamtanganComWebsite()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 2481677100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "the user clicks the popups",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserClicksThePopups()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 157255600,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "the user clicks the 'Masuk' button",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserClicksTheMasukButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 335478800,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "the user inserts a valid username and password",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserInsertsAValidUsernameAndPassword()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 186315500,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "the user clicks the 'Masuk' popup button",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserClicksMasukPopupButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1676060700,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "the user is redirected to the home page",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserIsRedirectedToTheHomePage()"
+      },
+      "keyword" : "And "
+    } ]
+  }, {
+    "start_timestamp" : "2024-12-05T15:01:56.920Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 4476612500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "hooks.Hooks.before()"
+      }
+    } ],
+    "line" : 15,
+    "name" : "Successfully checking out an item by searching a brand name and clicking its logo",
+    "description" : "",
+    "id" : "transaction-when-login;successfully-checking-out-an-item-by-searching-a-brand-name-and-clicking-its-logo",
+    "after" : [ {
+      "result" : {
+        "duration" : 5254092100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "hooks.Hooks.after(io.cucumber.java.Scenario)"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 146520900,
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "the user searches 'Seiko'",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Seiko'",
+          "offset" : 18
+        } ],
+        "location" : "steps.ItemSteps.theUserSearchesAnItem(java.lang.String)"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1861178400,
+        "status" : "passed"
+      },
+      "line" : 17,
+      "name" : "the user clicks the brand logo",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksTheBrandLogo()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 203331900,
+        "status" : "passed"
+      },
+      "line" : 18,
+      "name" : "the user clicks 'Wanita' option on 'Kategori' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksKategoriFilterWanita()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 845202300,
+        "status" : "passed"
+      },
+      "line" : 19,
+      "name" : "the user clicks '1.000.000 - 5.000.000' option on 'Harga' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksHargaFilter1Sd5Jt()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 129724000,
+        "status" : "passed"
+      },
+      "line" : 20,
+      "name" : "the user clicks 'Dress' option on 'Style' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksStyleFilterDress()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 172454800,
+        "status" : "passed"
+      },
+      "line" : 21,
+      "name" : "the user clicks 'Quartz' option on 'Movement' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksMovementFilterQuartz()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 149481300,
+        "status" : "passed"
+      },
+      "line" : 22,
+      "name" : "the user clicks '28-30 mm' option on 'Case Diameter' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksMovementdiameterFilter28Sd30()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 771475900,
+        "status" : "passed"
+      },
+      "line" : 23,
+      "name" : "the user clicks 'Silver' option on 'Warna' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksColorFilterSilver()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 887772600,
+        "status" : "passed"
+      },
+      "line" : 24,
+      "name" : "the user clicks 'Analog' option on 'Dial Display' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksDialFilterAnalog()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 844894700,
+        "status" : "passed"
+      },
+      "line" : 25,
+      "name" : "the user clicks '14 mm' option on 'Lug Width' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksLugFilter14()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 394040800,
+        "status" : "passed"
+      },
+      "line" : 26,
+      "name" : "the user clicks 'Stainless Steel' option on 'Strap Material' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksStrapFilterStainless()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 676294800,
+        "status" : "passed"
+      },
+      "line" : 27,
+      "name" : "the user clicks the eighth product",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksProduct8th()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 669200800,
+        "status" : "passed"
+      },
+      "line" : 28,
+      "name" : "the user clicks the 'Beli Sekarang' button",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksBuyNowButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1619863100,
+        "status" : "passed"
+      },
+      "line" : 29,
+      "name" : "the user clicks the 'Lanjutkan' button",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksContinueButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1275055000,
+        "status" : "passed"
+      },
+      "line" : 30,
+      "name" : "the user clicks the 'Ganti Alamat' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksChangeAddressButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 131067900,
+        "status" : "passed"
+      },
+      "line" : 31,
+      "name" : "the user clicks the 'Tambah Alamat' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksAddAddressButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 169787300,
+        "status" : "passed"
+      },
+      "line" : 32,
+      "name" : "the user inputs 'Test Alamat' in the 'Label Alamat' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Test Alamat'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersAddressLabelField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 100270300,
+        "status" : "passed"
+      },
+      "line" : 33,
+      "name" : "the user clicks the 'Jadikan alamat utama' checkbox",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserSetsPrimaryAddressBox()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 136903900,
+        "status" : "passed"
+      },
+      "line" : 34,
+      "name" : "the user inputs 'Boboboy' in the 'Nama Penerima' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Boboboy'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersRecipientNameField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 140192000,
+        "status" : "passed"
+      },
+      "line" : 35,
+      "name" : "the user inputs '081234567890' in the 'No. Handphone Penerima' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'081234567890'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersPhoneNumberField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1337258000,
+        "status" : "passed"
+      },
+      "line" : 36,
+      "name" : "the user inputs '16830' in the 'Kota atau Kecamatan' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'16830'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersCityField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 174235300,
+        "status" : "passed"
+      },
+      "line" : 38,
+      "name" : "the user inputs 'Jl. Kemangi 145' in the 'Detail Alamat' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Jl. Kemangi 145'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersAddressDetailsField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 102531500,
+        "status" : "passed"
+      },
+      "line" : 39,
+      "name" : "the user clicks the 'Simpan' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksSaveAddressButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 502973500,
+        "status" : "passed"
+      },
+      "line" : 42,
+      "name" : "the user clicks the 'Pilih Pengiriman' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksShippingMethodButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 635199500,
+        "status" : "passed"
+      },
+      "line" : 43,
+      "name" : "the user clicks the 'JNE REG' option",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksShippingMethodOptionJneReg()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5177836600,
+        "status" : "passed"
+      },
+      "line" : 44,
+      "name" : "the user clicks the 'Pilih Pembayaran' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksChoosePaymentButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 694287500,
+        "status" : "passed"
+      },
+      "line" : 45,
+      "name" : "the user clicks the 'Transfer Bank' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksTransferButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 126251500,
+        "status" : "passed"
+      },
+      "line" : 46,
+      "name" : "the user clicks the 'Transfer Bank Mandiri' option",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksTransferOptionMandiri()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 162041800,
+        "status" : "passed"
+      },
+      "line" : 47,
+      "name" : "the user clicks the 'Konfirmasi' button on Payment Method",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksKonfirmasiPaymentButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 238707800,
+        "status" : "passed"
+      },
+      "line" : 48,
+      "name" : "the user clicks the 'Bayar Sekarang' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksOrderNowButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6276315800,
+        "status" : "passed"
+      },
+      "line" : 49,
+      "name" : "the user clicks the 'Cek Pesanan Saya' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksCheckOrderButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 152239500,
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "the user compares the total payment in the 'Thank You' page with the one in the 'Pesanan Saya' page",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserComparesTotalPayments()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@jamtangan"
+    }, {
+      "name" : "@login"
+    }, {
+      "name" : "@regression"
+    }, {
+      "name" : "@scenario1"
+    } ]
+  }, {
+    "line" : 6,
+    "name" : "User is logged in",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 765794200,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "the user opens jamtangan.com website",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserOpensJamtanganComWebsite()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1803201800,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "the user clicks the popups",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserClicksThePopups()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 147039100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "the user clicks the 'Masuk' button",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserClicksTheMasukButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 337459100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "the user inserts a valid username and password",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserInsertsAValidUsernameAndPassword()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 176999200,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "the user clicks the 'Masuk' popup button",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserClicksMasukPopupButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1514766000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "the user is redirected to the home page",
+      "match" : {
+        "location" : "steps.LoginSteps.theUserIsRedirectedToTheHomePage()"
+      },
+      "keyword" : "And "
+    } ]
+  }, {
+    "start_timestamp" : "2024-12-05T15:02:38.519Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 2193495700,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "hooks.Hooks.before()"
+      }
+    } ],
+    "line" : 53,
+    "name" : "Successfully checking out an item by clicking a brand from popular searches and cancel it",
+    "description" : "",
+    "id" : "transaction-when-login;successfully-checking-out-an-item-by-clicking-a-brand-from-popular-searches-and-cancel-it",
+    "after" : [ {
+      "result" : {
+        "duration" : 5259019000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "hooks.Hooks.after(io.cucumber.java.Scenario)"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 135130800,
+        "status" : "passed"
+      },
+      "line" : 54,
+      "name" : "the user clicks the third most searched brand",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksPopularSearchBrand3rd()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 721623400,
+        "status" : "passed"
+      },
+      "line" : 55,
+      "name" : "the user clicks 'Pria' option on 'Kategori' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksKategoriFilterPria()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 787704800,
+        "status" : "passed"
+      },
+      "line" : 56,
+      "name" : "the user searches 'Seiko' on the 'Brands' search box",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Seiko'",
+          "offset" : 18
+        } ],
+        "location" : "steps.ItemSteps.theUserSearchesBrandSearchBox(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 143585300,
+        "status" : "passed"
+      },
+      "line" : 57,
+      "name" : "the user clicks '1.000.000 - 5.000.000' option on 'Harga' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksHargaFilter1Sd5Jt()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 142251300,
+        "status" : "passed"
+      },
+      "line" : 58,
+      "name" : "the user clicks 'Sport' option on 'Style' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksStyleFilterSport()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 165344000,
+        "status" : "passed"
+      },
+      "line" : 59,
+      "name" : "the user clicks 'Automatic' option on 'Movement' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksMovementFilterAutomatic()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 143763900,
+        "status" : "passed"
+      },
+      "line" : 60,
+      "name" : "the user clicks '40-42 mm' option on 'Case Diameter' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksMovementdiameterFilter40Sd42()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 763615100,
+        "status" : "passed"
+      },
+      "line" : 61,
+      "name" : "the user clicks 'Hitam' option on 'Warna' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksColorFilterHitam()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 812912900,
+        "status" : "passed"
+      },
+      "line" : 62,
+      "name" : "the user clicks 'Analog' option on 'Dial Display' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksDialFilterAnalog()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 776913400,
+        "status" : "passed"
+      },
+      "line" : 63,
+      "name" : "the user clicks '22 mm' option on 'Lug Width' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksLugFilter22()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 805382300,
+        "status" : "passed"
+      },
+      "line" : 64,
+      "name" : "the user clicks 'Stainless Steel' option on 'Strap Material' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksStrapFilterStainless()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 876583700,
+        "status" : "passed"
+      },
+      "line" : 65,
+      "name" : "the user clicks '4 ke atas' option on 'Rating' filter",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksRatingFilter4Plus()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 669437300,
+        "status" : "passed"
+      },
+      "line" : 66,
+      "name" : "the user clicks 'Terlaris' option on 'Product List' sorting",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksTerlarisSort()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 713807000,
+        "status" : "passed"
+      },
+      "line" : 67,
+      "name" : "the user clicks 'Harga Tertinggi' option on 'Urutkan' sorting",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksUrutkanTertinggiSort()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 665621700,
+        "status" : "passed"
+      },
+      "line" : 68,
+      "name" : "the user clicks the sixth product",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksProduct6th()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 818038800,
+        "status" : "passed"
+      },
+      "line" : 69,
+      "name" : "the user clicks the 'Beli Sekarang' button",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksBuyNowButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 171292400,
+        "status" : "passed"
+      },
+      "line" : 70,
+      "name" : "the user clicks the 'Beli Sekarang' button on the popup",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksBuyNowButtonPopUp()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1613095800,
+        "status" : "passed"
+      },
+      "line" : 71,
+      "name" : "the user clicks the 'Lanjutkan' button",
+      "match" : {
+        "location" : "steps.ItemSteps.theUserClicksContinueButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1103205400,
+        "status" : "passed"
+      },
+      "line" : 72,
+      "name" : "the user clicks the 'Ganti Alamat' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksChangeAddressButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 122416600,
+        "status" : "passed"
+      },
+      "line" : 73,
+      "name" : "the user clicks the 'Tambah Alamat' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksAddAddressButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 194237300,
+        "status" : "passed"
+      },
+      "line" : 74,
+      "name" : "the user inputs 'Rumah Eyang' in the 'Label Alamat' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Rumah Eyang'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersAddressLabelField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 81563100,
+        "status" : "passed"
+      },
+      "line" : 75,
+      "name" : "the user clicks the 'Jadikan alamat utama' checkbox",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserSetsPrimaryAddressBox()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 120712200,
+        "status" : "passed"
+      },
+      "line" : 76,
+      "name" : "the user inputs 'Hamtaro' in the 'Nama Penerima' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Hamtaro'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersRecipientNameField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 154291500,
+        "status" : "passed"
+      },
+      "line" : 77,
+      "name" : "the user inputs '0858645731' in the 'No. Handphone Penerima' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'0858645731'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersPhoneNumberField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1316213600,
+        "status" : "passed"
+      },
+      "line" : 78,
+      "name" : "the user inputs '23768' in the 'Kota atau Kecamatan' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'23768'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersCityField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 177197200,
+        "status" : "passed"
+      },
+      "line" : 80,
+      "name" : "the user inputs 'Jl. Wortel Baru 73' in the 'Detail Alamat' field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "'Jl. Wortel Baru 73'",
+          "offset" : 16
+        } ],
+        "location" : "steps.CheckoutSteps.theUserEntersAddressDetailsField(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 103031800,
+        "status" : "passed"
+      },
+      "line" : 81,
+      "name" : "the user clicks the 'Simpan' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksSaveAddressButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 633304200,
+        "status" : "passed"
+      },
+      "line" : 84,
+      "name" : "the user clicks the 'Pilih Pengiriman' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksShippingMethodButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 612915000,
+        "status" : "passed"
+      },
+      "line" : 85,
+      "name" : "the user clicks the 'J&T EZ' option",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksShippingMethodOptionJntEz()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5133327700,
+        "status" : "passed"
+      },
+      "line" : 86,
+      "name" : "the user clicks the 'Pilih Pembayaran' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksChoosePaymentButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 637359400,
+        "status" : "passed"
+      },
+      "line" : 87,
+      "name" : "the user clicks the 'Virtual Account' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksVirtualAccountButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 83731000,
+        "status" : "passed"
+      },
+      "line" : 88,
+      "name" : "the user clicks the 'Permata Virtual Account' option",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksVirtualAccountOptionPermata()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 92456700,
+        "status" : "passed"
+      },
+      "line" : 89,
+      "name" : "the user clicks the 'Konfirmasi' button on Payment Method",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksKonfirmasiPaymentButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 120954700,
+        "status" : "passed"
+      },
+      "line" : 90,
+      "name" : "the user clicks the 'Bayar Sekarang' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksOrderNowButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6124800800,
+        "status" : "passed"
+      },
+      "line" : 92,
+      "name" : "the user clicks the 'Cek Pesanan Saya' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksCheckOrderButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 71151200,
+        "status" : "passed"
+      },
+      "line" : 93,
+      "name" : "the user compares the total payment in the 'Thank You' page with the one in the 'Pesanan Saya' page",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserComparesTotalPayments()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 97199200,
+        "status" : "passed"
+      },
+      "line" : 94,
+      "name" : "the user clicks the 'Belum Bayar' filter",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksUnpaidFilter()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 691313800,
+        "status" : "passed"
+      },
+      "line" : 95,
+      "name" : "the user clicks the first 'Cek Rincian' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksCekRincian1()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 609608300,
+        "status" : "passed"
+      },
+      "line" : 96,
+      "name" : "the user clicks the next button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksNextButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 65136300,
+        "status" : "passed"
+      },
+      "line" : 97,
+      "name" : "the user compares the total payment in the 'Thank You' page with the one in the 'Rincian Pesanan' page",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserComparesTotalPayments2()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 281579700,
+        "status" : "passed"
+      },
+      "line" : 98,
+      "name" : "the user clicks the 'Batalkan Pesanan' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksBatalkanPesananButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 112540500,
+        "status" : "passed"
+      },
+      "line" : 99,
+      "name" : "the user clicks the 'Mau memasukkan mengubah vode voucher' option",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksBatalkanPesananOptionGantiVoucher()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 82082100,
+        "status" : "passed"
+      },
+      "line" : 100,
+      "name" : "the user clicks the 'Konfirmasi' button",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserClicksKonfirmasiButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 2129818100,
+        "status" : "passed"
+      },
+      "line" : 101,
+      "name" : "the user successfully cancels the order",
+      "match" : {
+        "location" : "steps.CheckoutSteps.theUserSuccessfullyCancelsTheOrder()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@jamtangan"
+    }, {
+      "name" : "@login"
+    }, {
+      "name" : "@regression"
+    }, {
+      "name" : "@scenario2"
+    } ]
+  } ],
+  "name" : "Transaction When Login",
+  "description" : "",
+  "id" : "transaction-when-login",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/features/01TransactionLogin.feature",
+  "tags" : [ {
+    "name" : "@jamtangan",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  }, {
+    "name" : "@login",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 12
+    }
+  }, {
+    "name" : "@regression",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 19
+    }
+  } ]
+} ]

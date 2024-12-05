@@ -1,0 +1,5 @@
+steps\ItemSteps.class
+steps\LoginSteps.class
+steps\CheckoutSteps.class
+suites\ScenarioSuite.class
+hooks\Hooks.class

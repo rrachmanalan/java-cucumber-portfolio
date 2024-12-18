@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="Test Suite" skipped="0" tests="2" time="85.881">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="2" time="106.71">
 
-<testcase classname="Transaction When Login" name="Successfully checking out an item by searching a brand name and clicking its logo" time="41.586">
+<testcase classname="Transaction When Login" name="Successfully checking out an item by searching a brand name and clicking its logo" time="53.696">
     
     <system-out>
         <![CDATA[
@@ -48,7 +48,7 @@ Then the user compares the total payment in the 'Thank You' page with the one in
     
 </testcase>
 
-<testcase classname="Transaction When Login" name="Successfully checking out an item by clicking a brand from popular searches and cancel it" time="44.094">
+<testcase classname="Transaction When Login" name="Successfully checking out an item by clicking a brand from popular searches and cancel it" time="52.768">
     
     <system-out>
         <![CDATA[

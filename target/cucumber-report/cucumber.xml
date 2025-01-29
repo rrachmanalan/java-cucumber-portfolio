@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="Test Suite" skipped="0" tests="2" time="100.136">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="2" time="92.663">
 
-<testcase classname="Transaction When Login" name="Successfully checking out an item by searching a brand name and clicking its logo" time="52.945">
+<testcase classname="Transaction When Login" name="Successfully checking out an item by searching a brand name and clicking its logo" time="45.508">
     
     <system-out>
         <![CDATA[
@@ -48,7 +48,7 @@ Then the user compares the total payment in the 'Thank You' page with the one in
     
 </testcase>
 
-<testcase classname="Transaction When Login" name="Successfully checking out an item by clicking a brand from popular searches and cancel it" time="46.983">
+<testcase classname="Transaction When Login" name="Successfully checking out an item by clicking a brand from popular searches and cancel it" time="46.936">
     
     <system-out>
         <![CDATA[
@@ -74,7 +74,6 @@ And the user clicks 'Terlaris' option on 'Product List' sorting.............pass
 And the user clicks 'Harga Tertinggi' option on 'Urutkan' sorting...........passed
 And the user clicks the sixth product.......................................passed
 And the user clicks the 'Beli Sekarang' button..............................passed
-And the user clicks the 'Beli Sekarang' button on the popup.................passed
 And the user clicks the 'Lanjutkan' button..................................passed
 And the user clicks the 'Ganti Alamat' button...............................passed
 And the user clicks the 'Tambah Alamat' button..............................passed

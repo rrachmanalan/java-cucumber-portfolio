@@ -67,7 +67,7 @@ Feature: Transaction When Login
     And the user clicks 'Harga Tertinggi' option on 'Urutkan' sorting
     And the user clicks the sixth product
     And the user clicks the 'Beli Sekarang' button
-    And the user clicks the 'Beli Sekarang' button on the popup
+#    And the user clicks the 'Beli Sekarang' button on the popup
     And the user clicks the 'Lanjutkan' button
     And the user clicks the 'Ganti Alamat' button
     And the user clicks the 'Tambah Alamat' button

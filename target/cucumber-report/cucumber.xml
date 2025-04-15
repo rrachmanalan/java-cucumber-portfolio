@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="Test Suite" skipped="0" tests="2" time="92.663">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="2" time="96.527">
 
-<testcase classname="Transaction When Login" name="Successfully checking out an item by searching a brand name and clicking its logo" time="45.508">
+<testcase classname="Transaction When Login" name="Successfully checking out an item by searching a brand name and clicking its logo" time="45.987">
     
-    <system-out>
-        <![CDATA[
+    <system-out><![CDATA[
 Given the user opens jamtangan.com website..................................passed
 When the user clicks the popups.............................................passed
 And the user clicks the 'Masuk' button......................................passed
@@ -43,15 +42,13 @@ And the user clicks the 'Konfirmasi' button on Payment Method...............pass
 And the user clicks the 'Bayar Sekarang' button.............................passed
 And the user clicks the 'Cek Pesanan Saya' button...........................passed
 Then the user compares the total payment in the 'Thank You' page with the one in the 'Pesanan Saya' page.passed
-]]>
-    </system-out>
+]]></system-out>
     
 </testcase>
 
-<testcase classname="Transaction When Login" name="Successfully checking out an item by clicking a brand from popular searches and cancel it" time="46.936">
+<testcase classname="Transaction When Login" name="Successfully checking out an item by clicking a brand from popular searches and cancel it" time="50.296">
     
-    <system-out>
-        <![CDATA[
+    <system-out><![CDATA[
 Given the user opens jamtangan.com website..................................passed
 When the user clicks the popups.............................................passed
 And the user clicks the 'Masuk' button......................................passed
@@ -101,8 +98,7 @@ And the user clicks the 'Batalkan Pesanan' button...........................pass
 And the user clicks the 'Mau memasukkan mengubah vode voucher' option.......passed
 And the user clicks the 'Konfirmasi' button.................................passed
 Then the user successfully cancels the order................................passed
-]]>
-    </system-out>
+]]></system-out>
     
 </testcase>
 

@@ -187,7 +187,7 @@ public class ItemPage {
 
     public void clickDiameterFilter28Sd30() {
         wait.until(ExpectedConditions.visibilityOf(diameterHeader));
-        diameterHeader.click();
+//        diameterHeader.click();
 
         wait.until(ExpectedConditions.visibilityOf(diameterFilter28Sd30));
         diameterFilter28Sd30.click();
@@ -195,7 +195,7 @@ public class ItemPage {
 
     public void clickDiameterFilter40Sd42() {
         wait.until(ExpectedConditions.visibilityOf(diameterHeader));
-        diameterHeader.click();
+//        diameterHeader.click();
 
         wait.until(ExpectedConditions.visibilityOf(diameterFilter40Sd42));
         diameterFilter40Sd42.click();

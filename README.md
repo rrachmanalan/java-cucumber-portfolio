@@ -11,6 +11,7 @@ The addition of Courgette extension enables us to re-running a failed scenario o
 ## System Requirements
 - Java 11 or higher.
 - IntelliJ IDEA Community Edition as the IDE.
+- Maven for running various functions.
 - Latest version of Google Chrome as the browser.
 
 ## Additional Plugins for IntelliJ IDEA
